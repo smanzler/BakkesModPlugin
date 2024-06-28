@@ -23,7 +23,7 @@ void SighPlugin::LoadHooks()
 void SighPlugin::GameEndedEvent(std::string name) 
 {
 	this->Log("Going to freeplay");
-	cvarManager->executeCommand("load-freeplay");
+	cvarManager->executeCommand("load_freeplay");
 }
 
 void SighPlugin::Log(std::string msg)
